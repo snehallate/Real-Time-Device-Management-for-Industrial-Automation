@@ -23,9 +23,9 @@ The project simulates a real-time industrial device management system used for m
 
 # Project Structure
 Real-Time-Device-Management/
-│── main.py
-│── README.md
-│── report.pdf
+* │── main.py
+* │── README.md
+* │── report.pdf
 
 # How to Run
 Install Python and run:
