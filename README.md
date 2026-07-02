@@ -1,5 +1,5 @@
 # Real-Time-Device-Management-for-Industrial-Automation
-# https://github.com/snehallate/Real-Time-Device-Management-for-Industrial-Automation
+Repository Link: https://github.com/snehallate/Real-Time-Device-Management-for-Industrial-Automation
 
 # Project Overview
 The project simulates a real-time industrial device management system used for monitoring sensors and actuators in industrial automation environments.
