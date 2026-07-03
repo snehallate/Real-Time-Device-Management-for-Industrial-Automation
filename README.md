@@ -78,24 +78,24 @@ If found:
 # Project Design- Architecture block diagram with description
 # 1. Class Diagram
 The class diagram depicts the structure of the system, showing the Device and DeviceManager classes and their interactions.
-# Device Class:
+Device Class:
 * Attributes: device_id, name, status, reliability_score
 * Methods: update_status(), update_reliability()
-# DeviceManager Class:
+DeviceManager Class:
 * Attributes: devices (a dictionary of devices)
 * Methods: add_device(), update_device_status(), get_device_status(), check_device_reliability()
 # 2. Sequence Diagram
 The sequence diagram outlines the interactions between the DeviceManager and Device objects when updating device status and checking reliability.
-# Add Device Sequence:
+Add Device Sequence:
 The DeviceManager sends a request to add_device(), which adds the device to the internal collection.
-# Update Device Status Sequence:
+Update Device Status Sequence:
 The DeviceManager invokes the update_status() method on the Device object, triggering a status update.
-# Reliability Check Sequence:
+Reliability Check Sequence:
 The DeviceManager calls check_device_reliability(), which retrieves the reliability score of a device.
 
 # Class Diagram:
 
-<img width="547" height="457" alt="image" src="https://github.com/user-attachments/assets/66bd1ed5-d20e-49d1-bb80-1a68e019c6e7" />
+<img width="530" height="412" alt="image" src="https://github.com/user-attachments/assets/66bd1ed5-d20e-49d1-bb80-1a68e019c6e7" />
 
 # Sequence Diagram:
 <img width="610" height="554" alt="image" src="https://github.com/user-attachments/assets/a813a75f-3a23-44fe-91b4-74884da9df6c" />
@@ -106,10 +106,10 @@ Manages all the devices in the system and handles operations such as adding new 
 # 2)Device Class:
 Represents an individual device such as a sensor or actuator. Each device has a unique ID, a name, a status (e.g., online/offline), and a reliability score. The class provides methods to update the device’s status and reliability.
 # 3)Sequence Explanation:
-a)The DeviceManager first adds devices to its collection using add_device().
-b)When a device's status needs to be updated, the manager calls update_device_status() on the corresponding device.
-c)The system measures the response time of this update.
-d)The reliability of the device is periodically checked using check_device_reliability().
+* The DeviceManager first adds devices to its collection using add_device().
+* When a device's status needs to be updated, the manager calls update_device_status() on the corresponding device.
+* The system measures the response time of this update.
+* The reliability of the device is periodically checked using check_device_reliability().
 
 # Features
 * Add and manage devices
