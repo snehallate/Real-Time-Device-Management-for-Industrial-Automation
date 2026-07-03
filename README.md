@@ -163,7 +163,7 @@ The system showed excellent responsiveness with an average response time of 15ms
 Install Python and run:
 python main.py
 
-# Screen Images of Project
+# Screen Images of Output
 <img width="662" height="162" alt="image" src="https://github.com/user-attachments/assets/5f6e6798-d86f-4501-9a20-ec32bba18980" />
 
 
