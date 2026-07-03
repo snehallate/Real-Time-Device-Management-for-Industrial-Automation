@@ -29,20 +29,20 @@ In an industrial environment, various devices like sensors and actuators play cr
 # Algorithm
 1)  Initialize Device
 * Input: device_id, name, status="offline", reliability_score=0
-# Process:
+Process:
 * Create an object of the class Device.
 * Assign input values to device_id, name, status, and reliability_score.
 * Output: New device object with the given attributes.
 2)  Add Device to Device Manager
 * Input: Device object
-# Process:
+Process:
 * Add the device to the devices dictionary in DeviceManager, using device_id as the key.
 * Output: Confirmation of device added.
 3) Update Device Status
 * Input: device_id, new_status
-# Process:
+Process:
 * Search for the device using device_id in the devices dictionary.
-# If found:
+If found:
 1.Start the timer to measure the response time.
 2.Update the device's status to new_status.
 3.Stop the timer and calculate the response time.
@@ -51,26 +51,26 @@ In an industrial environment, various devices like sensors and actuators play cr
 * Output: The response time taken to update the device status.
 4) Update Device Reliability
 * Input: device_id, score
-# Process:
+Process:
 * Search for the device using device_id in the devices dictionary.
-# If found:
+If found:
 * Update the reliability_score to the new score.
 * Print the updated reliability score.
 * Else: Print "Device not found".
 * Output: Confirmation of the updated reliability score.
 5) Get Device Status
 * Input: device_id
-# Process:
+Process:
 * Search for the device using device_id in the devices dictionary.
-# If found:
+If found:
 * Retrieve the current status of the device.
 * Else: Return "Device not found".
 * Output: Device status.
 6) Check Device Reliability
 * Input: device_id
-# Process:
+Process:
 * Search for the device using device_id in the devices dictionary.
-# If found:
+If found:
 * Retrieve the current reliability_score of the device.
 * Else: Return "Device not found".
 * Output: Device reliability score.
