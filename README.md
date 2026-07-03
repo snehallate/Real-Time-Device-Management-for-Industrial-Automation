@@ -24,7 +24,7 @@ In an industrial environment, various devices like sensors and actuators play cr
 * User experience and productivity considerations
 
 # Flowchat
-<img width="429" height="709" alt="image" src="https://github.com/user-attachments/assets/de93daec-d134-40ba-a292-984cbb14a63a" />
+<img width="329" height="500" alt="image" src="https://github.com/user-attachments/assets/de93daec-d134-40ba-a292-984cbb14a63a" />
 
 # Algorithm
 1)  Initialize Device
